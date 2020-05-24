@@ -1,45 +1,86 @@
 <!DOCTYPE html>
 
 <html>
+
+    <head>
+        <style>
+            .bio-box-1
+            {
+                border: 1px solid darkorange
+            }
+            .bio-box-1 a
+            {
+                color: darkorange
+            }
+            .bio-box-2
+            {
+                border: 1px solid indigo
+            }
+            .bio-box-2 a
+            {
+                color: indigo
+            }
+            .bio-box-3
+            {
+                border: 1px solid crimson
+            }
+            .bio-box-3 a
+            {
+                color: crimson
+            }
+            .social .fb_link a
+            {
+                color: #29487d
+            }
+            .social .tw_link a
+            {
+                color: rgba(29,161,242,1.00)
+            }
+            .social .lnkd_link a
+            {
+                color: #0077b5
+            }
+        </style>
+    </head>
     
     <body>
         
         <h1> This is an Level 1 Heading </h1>
         
-        <ul>
-            <li>
-             <a href="https://example.com", style="color: #f00">Link #1</a>
+        <ul class='social'>
+            <li class='fb_link'>
+             <a href="https://example.com">Facebook Link</a>
             </li>
             
             <br />
             
-            <li>
-             <a href="https://example.com", style="color: #0f0">Link #2</a>   
+            <li class='tw_link'>
+             <a href="https://example.com">Twitter Link</a>   
             </li>
             
             <br />
             
-            <li>
-             <a href="https://example.com", style="color: #00f">Link #3</a>   
+            <li class='lnkd_link'>
+             <a href="https://example.com">Linkedin Link</a>   
             </li>
         </ul>
 
         <h2> This is an Level 2 Heading </h2>
 
-        <div style="border: 1px outset darkorange">
-            <a href="https://example.com", style="color: darkorange"><em>Ahkshaey Ravi</em></a>
+        <div class='bio-box-1'>
+            <a href="https://example.com"><em>Ahkshaey Ravi</em></a>
         </div>
         
         <br />    
         
-        <div style="border: 1px ridge indigo">
-            <a href="https://example.com", style="color :indigo"><em>Chitra Ravi</em></a>
+        <div class='bio-box-2'>
+            <a href="https://example.com"><em>Chitra Ravi</em></a>
         </div>
         
         <br />
         
-        <div style="border: 1px inset crimson"> 
-            <a href="https://example.com", style="color: crimson"><em>Sandhya Ahkshaey</em></a>
+        <div class='bio-box-3'> 
+            <a href="https://example.com"><em>Sandhya Ahkshaey</em></a>
         </div>
         
     </body>
